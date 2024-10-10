@@ -15,7 +15,7 @@ This repository contains a complete ETL pipeline and Power BI dashboard for anal
 1. Clone the repo:
 
 
-        git clone https://github.com/username/ecommerce-analytics-pipeline.git
+        git clone https://github.com/karimosman89/ecommerce-analytics-pipeline.git
 
 
 1. Install dependencies:
