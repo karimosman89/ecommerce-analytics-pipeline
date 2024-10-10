@@ -13,37 +13,38 @@ This repository contains a complete ETL pipeline and Power BI dashboard for anal
 ## How to Run
 
 1. Clone the repo:
-   
-     git clone https://github.com/username/ecommerce-analytics-pipeline.git
 
 
-2. Install dependencies:
+        git clone https://github.com/username/ecommerce-analytics-pipeline.git
 
 
-      pip install -r requirements.txt
+1. Install dependencies:
 
 
-
-3. Run the ETL Pipeline:
-
-
-     python scripts/etl_pipeline.py
+       pip install -r requirements.txt
 
 
 
-4. Run the feature engineering:
+2. Run the ETL Pipeline:
 
 
-      python scripts/feature_engineering.py
+       python scripts/etl_pipeline.py
 
 
 
-5. Export the final dataset for Power BI:
+3. Run the feature engineering:
 
 
-      python scripts/power_bi_data_export.py
+        python scripts/feature_engineering.py
+
+
+
+4. Export the final dataset for Power BI:
+
+
+         python scripts/power_bi_data_export.py
     
    
 
-6. Open `powerbi/Ecommerce_Analytics_Dashboard.pbix` in Power BI to view the dashboard.
+5. Open `powerbi/Ecommerce_Analytics_Dashboard.pbix` in Power BI to view the dashboard.
    
